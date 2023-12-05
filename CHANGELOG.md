@@ -1,5 +1,12 @@
 
 
+## 0.1.9 (2023-12-05)
+
+
+### fix
+
+* add files to tsconfig & remove main f pckg.js ([a8999a0](https://github.com/cloudxsgmbh/governance/commit/a8999a0de6decec0a9af26ff17b8f403ede2c1dc))
+
 ## 0.1.8 (2023-12-05)
 
 ## 0.1.7 (2023-12-05)
