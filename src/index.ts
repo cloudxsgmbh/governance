@@ -1,3 +1,3 @@
-import { Naming, getName } from './Naming/index.js';
+import { Naming, getName } from './Naming';
 
 export { Naming, getName };
