@@ -1,6 +1,6 @@
 {
   "name": "@cloudxs/governance",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "This repository contains code helping to ensure a governance of the projects of cloudxs GmbH.",
   "scripts": {
     "release": "release-it",

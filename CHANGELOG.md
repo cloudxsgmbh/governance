@@ -1,5 +1,12 @@
 
 
+## 0.1.10 (2023-12-05)
+
+
+### fix
+
+* try different tsconfig ([58f5364](https://github.com/cloudxsgmbh/governance/commit/58f5364f03708cb2b0e2764da04438ad4b03dcd6))
+
 ## 0.1.9 (2023-12-05)
 
 
