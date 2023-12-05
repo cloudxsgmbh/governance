@@ -11,5 +11,13 @@
   },
   "hooks": {
     "before:init": ["git pull", "npm run lint"]
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": {
+        "name": "eslint"
+      },
+      "infile": "CHANGELOG.md"
+    }
   }
 }
