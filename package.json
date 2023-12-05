@@ -1,6 +1,6 @@
 {
   "name": "@cloudxs/governance",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "This repository contains code helping to ensure a governance of the projects of cloudxs GmbH.",
   "main": "src/index.ts",
   "type": "module",
