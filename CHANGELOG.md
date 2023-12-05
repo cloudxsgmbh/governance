@@ -1,5 +1,12 @@
 
 
+## 0.1.7 (2023-12-05)
+
+
+### Fix
+
+* try to make the module available with commonj ([5dfbe6a](https://github.com/cloudxsgmbh/governance/commit/5dfbe6a4bdc3cd451bcc34acab031b97226b04dd))
+
 ## 0.1.6 (2023-12-05)
 
 
