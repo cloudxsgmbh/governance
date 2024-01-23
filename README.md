@@ -3,6 +3,7 @@
 This repository contains code helping to ensure a governance of the projects of cloudxs GmbH.
 
 - Naming conventions
+- Tagging conventions
 
 ## Development
 
