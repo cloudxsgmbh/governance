@@ -1,5 +1,12 @@
 
 
+## 1.1.3 (2024-01-22)
+
+
+### fix
+
+* release pipeline using old node version ([eea1eb6](https://github.com/cloudxsgmbh/governance/commit/eea1eb61ebd7ae9254d76e6e0cb4a686d793fc2b))
+
 ## 1.1.2 (2024-01-22)
 
 
