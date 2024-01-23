@@ -14,6 +14,7 @@
   "author": "cloudxs",
   "license": "ISC",
   "dependencies": {
+    "@pulumi/pulumi": "^3.102.0",
     "concurrently": "^8.2.2",
     "nodemon": "^3.0.3",
     "rollup": "^4.9.6",

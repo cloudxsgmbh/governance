@@ -1,3 +1,4 @@
 import * as naming from './naming';
+import * as tag from './tag';
 
-export { naming };
+export { naming, tag };
