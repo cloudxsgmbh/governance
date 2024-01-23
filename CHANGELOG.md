@@ -1,5 +1,12 @@
 
 
+## 1.1.7 (2024-01-23)
+
+
+### Build
+
+* move dev dependencies into devDependencies ([8c4d2f8](https://github.com/cloudxsgmbh/governance/commit/8c4d2f8835d340a144b743311efc23443a6169b1))
+
 ## 1.1.6 (2024-01-23)
 
 ## 1.1.5 (2024-01-23)
