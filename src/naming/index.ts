@@ -19,6 +19,7 @@ export enum Abbreviations {
   FrontDoorSecurityPolicy = 'fdsp',
   IpGroup = 'ipg',
   K8sConfigMap = 'k8cm',
+  K8sCronJob = 'k8cj',
   K8sDeployment = 'k8dep',
   K8sHorizontalPodAutoscaler = 'k8hpa',
   K8sNamespace = 'k8ns',
