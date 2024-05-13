@@ -1,5 +1,8 @@
 /* © 2023 cloudxs GmbH. All rights reserved. / Naming.ts */
 
+// When creating new entries, please consider:
+// https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations
+
 export enum Abbreviations {
   AzureContainerRegistry = 'cr',
   AzureFirewallRuleCollection = 'afwrc',
@@ -27,6 +30,7 @@ export enum Abbreviations {
   K8sSecret = 'k8sec',
   K8sService = 'k8svc',
   K8sStorageClass = 'k8sc',
+  LogAnalyticsWorkspace = 'log',
   ManagedCluster = 'aks',
   MySQLDatabase = 'mysqldb',
   MySQLServer = 'mysql',
