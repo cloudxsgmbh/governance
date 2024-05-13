@@ -1,5 +1,12 @@
 
 
+## 1.1.9 (2024-05-13)
+
+
+### Update
+
+* add LogAnalyticsWorkspace ([fbe1708](https://github.com/cloudxsgmbh/governance/commit/fbe1708d8dc52c889601c8ae1aef704f8e25a8b2))
+
 ## 1.1.8 (2024-02-29)
 
 ## 1.1.7 (2024-01-23)
