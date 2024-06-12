@@ -39,6 +39,7 @@ export enum Abbreviations {
   PrivateDnsZone = 'pdz',
   PrivateDnsZoneGroup = 'pdzg',
   PrivateEndpoint = 'pep',
+  PrivateLinkScope = 'plsc',
   PrivateLinkService = 'pl',
   Provider = 'prv',
   RecoveryServicesProtectedItem = 'rspi',
