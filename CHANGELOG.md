@@ -1,5 +1,12 @@
 
 
+## 1.1.10 (2024-06-12)
+
+
+### Update
+
+* add PrivateLinkScope ([fa502d3](https://github.com/cloudxsgmbh/governance/commit/fa502d3b8fb01378423ae130e04f96fbc5bc9409))
+
 ## 1.1.9 (2024-05-13)
 
 
