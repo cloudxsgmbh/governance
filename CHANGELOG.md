@@ -1,5 +1,12 @@
 
 
+## 1.1.13 (2024-06-24)
+
+
+### Update
+
+* add DnsPrivateResolver and Outbound endpoint ([2ce4b66](https://github.com/cloudxsgmbh/governance/commit/2ce4b66c7c485f9931a6d0376a2569171bf30232))
+
 ## 1.1.12 (2024-06-24)
 
 
