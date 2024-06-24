@@ -1,5 +1,12 @@
 
 
+## 1.1.12 (2024-06-24)
+
+
+### Update
+
+* add DnsPrivateResolverInboundEndpoint ([0f2d3c1](https://github.com/cloudxsgmbh/governance/commit/0f2d3c16aa264a55a2fc8f90ec7116b5ee9328f4))
+
 ## 1.1.11 (2024-06-24)
 
 ## 1.1.10 (2024-06-12)
