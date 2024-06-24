@@ -9,6 +9,7 @@ export enum Abbreviations {
   AzureFirewallRuleCollectionGroup = 'afwrcg',
   ContainerImage = 'cimg',
   ContainerInstance = 'ci',
+  DnsPrivateResolverInboundEndpoint = 'in',
   FirewallRule = 'fwr',
   FrontDoorCustomDomain = 'fdcd',
   FrontDoorEndpoint = 'fde',
