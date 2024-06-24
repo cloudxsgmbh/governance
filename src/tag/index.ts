@@ -18,6 +18,7 @@ export function getPulumiTags(region?: string) {
   const tags = {
     Environment: pulumi.getStack(),
     Project: pulumi.getProject(),
+    IacTool: 'Pulumi',
   };
 
   if (configTags) {
