@@ -1,17 +1,16 @@
-const typescript = require('rollup-plugin-typescript2');
-const pkg = require('./package.json');
+import typescript from 'rollup-plugin-typescript2';
+import pkg from './package.json' with { type: 'json' };
 
-module.exports = {
+export default {
   input: 'src/index.ts',
+  external: ['@pulumi/pulumi'],
+  plugins: [typescript()],
   output: [
     {
       file: pkg.main,
       format: 'cjs',
-      exports: 'named',
       sourcemap: true,
-      strict: false,
+      exports: 'named',
     },
   ],
-  plugins: [typescript()],
-  external: ['@pulumi/pulumi'],
-};
+}
