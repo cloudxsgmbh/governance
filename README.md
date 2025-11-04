@@ -18,6 +18,10 @@ pulumiProjectName:projectTags:
 
 Do not manually bump the version in the `package.json` file.
 
+### NPM
+
+The Github release pipeline pushes new versions to NPM automatically when a new release is created. CLXS decided to use a new token every time a new release is created. The token is stored as a secret called `NPM_TOKEN` in the repository settings. Create a personal npm granular token with the minimal required permissions and expiry date.
+
 ### Automatic releases
 
 Consider the [ESLint Convention](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-eslint#eslint-convention) when writing commit messages.
