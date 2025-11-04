@@ -7,6 +7,10 @@ on:
     branches:
       - main
 
+    # Don't trigger on documentation changes
+    paths-ignore:
+      - '**.md'
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -14,7 +18,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@main
 
-      - name: Install the dependancies
+      - name: Install the dependencies
         run: npm ci
 
       - name: Initialise the NPM config
