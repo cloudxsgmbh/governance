@@ -10,7 +10,7 @@ build({
   sourcemap: true,
   platform: 'node',
   external: ['@pulumi/pulumi'],
-  format: 'cjs',
+  format: 'esm',
   target: 'esnext',
   tsconfig: 'tsconfig.json',
 }).catch(() => process.exit(1));
