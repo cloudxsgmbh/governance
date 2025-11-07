@@ -21,6 +21,7 @@ export default {
   plugins: {
     '@release-it/conventional-changelog': {
       preset: 'eslint',
+      infile: "CHANGELOG.md"
     },
   },
 } satisfies Config;
