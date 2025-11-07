@@ -7,7 +7,7 @@
   "scripts": {
     "release": "release-it",
     "lint": "eslint . --ext .ts,.tsx",
-    "build": "rollup -c",
+    "build": "node ./esbuild.config.mjs",
     "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
     "test": "jest",
     "prepare": "npm run build"
@@ -23,11 +23,11 @@
     "@release-it/conventional-changelog": "^10",
     "@types/jest": "^30",
     "concurrently": "^9",
+    "esbuild": "^0.25.12",
     "eslint": "^9.39.1",
     "jest": "^30",
     "nodemon": "^3.1.10",
     "release-it": "^19",
-    "rollup": "^4.52.5",
     "rollup-plugin-typescript2": "^0.36.0",
     "ts-jest": "^29.4.5",
     "typescript-eslint": "^8.46.3"
