@@ -1,0 +1,26 @@
+/* © 2025 cloudxs GmbH. All rights reserved. / .release-it.ts */
+
+import type { Config } from 'release-it';
+
+export default {
+  git: {
+    commit: true,
+    tag: true,
+    push: true,
+    requireBranch: 'main'
+  },
+  github: {
+    release: false
+  },
+  npm: {
+    publish: true
+  },
+  hooks: {
+    'before:init': ["git pull", "npm run lint", "npm test"],
+  },
+  plugins: {
+    '@release-it/conventional-changelog': {
+      preset: 'eslint',
+    },
+  },
+} satisfies Config;
