@@ -1,6 +1,6 @@
 {
   "name": "@cloudxs/governance",
-  "version": "1.1.15",
+  "version": "2.0.0",
   "description": "cloudxs governance",
   "main": "dist/index.js",
   "type": "module",
