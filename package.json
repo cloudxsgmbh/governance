@@ -8,6 +8,7 @@
     "release": "release-it",
     "lint": "eslint . --ext .ts,.tsx",
     "build": "node ./esbuild.config.mjs",
+    "postbuild": "tsc --emitDeclarationOnly",
     "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
     "test": "jest",
     "prepare": "npm run build"
