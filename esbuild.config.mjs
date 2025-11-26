@@ -3,14 +3,34 @@
 import { build } from 'esbuild';
 import pkg from './package.json' with { type: 'json' };
 
-build({
-  entryPoints: ['src/index.ts'],
-  bundle: true,
-  outfile: pkg.main,
-  sourcemap: true,
-  platform: 'node',
-  external: ['@pulumi/pulumi'],
-  format: 'esm',
-  target: 'esnext',
-  tsconfig: 'tsconfig.json',
-}).catch(() => process.exit(1));
+const entryPoints = ['src/index.ts'];
+
+async function buildProject() {
+  // Build for CommonJS
+  await build({
+    entryPoints,
+    bundle: true,
+    outfile: pkg.main,
+    sourcemap: true,
+    platform: 'node',
+    format: 'cjs',
+    target: 'esnext',
+    tsconfig: 'tsconfig.json',
+    external: Object.keys(pkg.peerDependencies || {}),
+  });
+
+  // Build for ESM
+  await build({
+    entryPoints,
+    bundle: true,
+    outfile: pkg.module,
+    sourcemap: true,
+    platform: 'node',
+    format: 'esm',
+    target: 'esnext',
+    tsconfig: 'tsconfig.json',
+    external: Object.keys(pkg.peerDependencies || {}),
+  });
+}
+
+buildProject().catch(() => process.exit(1));
