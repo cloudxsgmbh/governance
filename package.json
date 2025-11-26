@@ -4,6 +4,7 @@
   "description": "cloudxs governance",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "release": "release-it",
@@ -40,5 +41,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "exports": {
+    "import": "./dist/index.esm.js",
+    "require": "./dist/index.cjs.js"
   }
 }
